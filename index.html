@@ -45,11 +45,11 @@
     /* Example words setup */
     [
         /*'adorable',
-        'comique',
-        'curieuse',
-        'drole',
-        'engagee',
-        'enjouee',
+        'petite',
+        'salacious',
+        'model',
+        'anxious',
+        'autodidactic',
         'fidele',
         'futee',
         'radieuse',
@@ -79,10 +79,11 @@
         }
         try {
             game = new WordFindGame('#puzzle', {
-                allowedMissingWords: +$('#allowed-missing-words').val(),
+                // allowedMissingWords: +$('#allowed-missing-words').val(),
+                allowedMissingWords: 5,
                 maxGridGrowth: +$('#max-grid-growth').val(),
-                fillBlanks: fillBlanks,
-                allowExtraBlanks: ['none', 'secret-word-plus-blanks'].includes($('#extra-letters').val()),
+                // fillBlanks: fillBlanks,
+                // allowExtraBlanks: ['none', 'secret-word-plus-blanks'].includes($('#extra-letters').val()),
                 maxAttempts: 100,
             });
         } catch (error) {
