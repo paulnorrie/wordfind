@@ -97,7 +97,8 @@ user-select:none;
   .puzzleSquare {
     height: 3.5rem;
     width: 3.5rem;
-    font: 2.5rem sans-serif;
+    /* font: 2.5rem sans-serif; */
+   font-family: "Eagle Lake", serif;
   }
 }
 
