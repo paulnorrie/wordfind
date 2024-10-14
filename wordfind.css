@@ -51,16 +51,25 @@ h1 {
            -moz-user-select: none; /* Firefox */
             -ms-user-select: none; /* Internet Explorer/Edge */
                 user-select: none;
+ -webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 #puzzle > div { /* rows */
   width: 100%;
   margin: 0 auto;
- -webkit-touch-callout: none; /* Safari */
-        -webkit-user-select: none; /* Chrome */     
-           -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-                user-select: none;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 /* style for each square in the puzzle */
@@ -71,11 +80,13 @@ h1 {
   background-color: white;
   border: 0;
   font: 5vw sans-serif;
- -webkit-touch-callout: none; /* Safari */
-        -webkit-user-select: none; /* Chrome */     
-           -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-                user-select: none;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 @media only screen and (min-width: 600px) {
   #puzzle {
