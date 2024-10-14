@@ -12,7 +12,7 @@
 body {
   overscroll-behavior-y: contain; /* prevent vertical mouse/touchmove from accidentally causing pull-down refresh */
   overflow-y: hidden;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Eagle Lake", serif;
   /* font-size: 1em; */
 }
 
