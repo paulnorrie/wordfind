@@ -8,7 +8,10 @@
 
  
 
-
+html {
+    overflow: hidden;
+    overscroll-behavior: none;
+}
 body {
   overscroll-behavior-y: contain; /* prevent vertical mouse/touchmove from accidentally causing pull-down refresh */
   overflow-y: hidden;
