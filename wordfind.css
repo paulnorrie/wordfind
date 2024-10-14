@@ -6,11 +6,8 @@
 *     http://github.com/bunkat/wordfind
 */
 
- -webkit-touch-callout: none; /* Safari */
-        -webkit-user-select: none; /* Chrome */     
-           -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-                user-select: none;
+ 
+
 
 body {
    -webkit-touch-callout: none; /* Safari */
@@ -48,11 +45,22 @@ h1 {
   display: inline-block;
   border: 1px solid black;
   padding: 3vw;
+
+ -webkit-touch-callout: none; /* Safari */
+        -webkit-user-select: none; /* Chrome */     
+           -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none;
 }
 
 #puzzle > div { /* rows */
   width: 100%;
   margin: 0 auto;
+ -webkit-touch-callout: none; /* Safari */
+        -webkit-user-select: none; /* Chrome */     
+           -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none;
 }
 
 /* style for each square in the puzzle */
@@ -63,6 +71,11 @@ h1 {
   background-color: white;
   border: 0;
   font: 5vw sans-serif;
+ -webkit-touch-callout: none; /* Safari */
+        -webkit-user-select: none; /* Chrome */     
+           -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none;
 }
 @media only screen and (min-width: 600px) {
   #puzzle {
