@@ -17,7 +17,7 @@ body {
 }
 
 p {
-  font: 22pt sans-serif;
+  font: 22pt "Eagle Lake";
   margin: 20px 20px 0px 20px;
 }
 
@@ -80,7 +80,7 @@ user-select:none;
   text-transform: uppercase;
   background-color: white;
   border: 0;
-  font: 5vw sans-serif;
+  font: 5vw "Eagle Lake";
 -webkit-touch-callout:none;
 -webkit-user-select:none;
 -khtml-user-select:none;
